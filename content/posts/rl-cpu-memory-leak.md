@@ -1,7 +1,7 @@
 ---
 title: "为什么大规模 RL 训练会悄悄吃光 CPU 内存"
 date: 2026-06-20T17:00:00+08:00
-draft: false
+draft: true
 tags: ["AI Infra", "RL训练", "显存治理", "国产卡"]
 categories: ["接缝实战"]
 summary: "一类在大规模强化学习训练中反复出现的 CPU 内存缓慢增长问题——训练数百 iteration 后 OOM。本文从现象、定位到根因，拆解这条横跨框架与底层运行时的接缝。"
