@@ -1,0 +1,57 @@
+baseURL = "https://catjiojio.github.io/"
+languageCode = "zh-cn"
+title = "跨栈观察"
+theme = "PaperMod"
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+pygmentsUseClasses = true
+
+[minify]
+  disableXML = true
+
+[params]
+  env = "production"
+  description = "懂芯片的人写框架，懂框架的人写芯片 —— 国产 AI 加速卡软件栈的接缝拆解"
+  author = "catjiojio"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "跨栈观察 👋"
+    Content = "这里写 AI 加速卡软件栈的一手实战：国产卡训推适配、集合通信、显存治理、设备虚拟化——以及偶尔的行业观察。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/catjiojio"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

@@ -1,0 +1,9 @@
+/public/
+/resources/_gen/
+.hugo_build.lock
+.DS_Store
+# 隐私红线：禁止任何 level-up / 敏感内容混入
+*level-up*
+*career*
+*finance*
+*okr*
